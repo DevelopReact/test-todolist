@@ -46,4 +46,4 @@ Tech stack:
 - Tailwind
 - FSD
 
-Deploy: 
+Deploy: https://developreact.github.io/test-todolist/
