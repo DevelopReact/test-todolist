@@ -1,73 +1,49 @@
-# React + TypeScript + Vite
+Task: Develop a React application incorporating a TODO list, API interaction,
+pagination, CRUD operations, custom design, state management through
+Redux or Local Storage, with optional responsive design and Docker
+containerization.
+Steps to Complete:
+• Setting up the React Project:
+• Create a new React application using Create React App or any other
+tools of your choice.
+• Initialize a git repository and commit the changes.
+• Fetching TODO List from an API:
+• Choose any API for retrieving a list of tasks (e.g., JSONPlaceholder).
+• Integrate the received data into the application.
+• Implementing Pagination:
+• Implement pagination to manage the display of the task list.
+• Provide navigation between pages and display the total number of
+pages.
+• CRUD Operations in TODO:
+• Implement functionality for adding, deleting, and editing tasks.
+• Update the interface accordingly when changes occur in the data.
+• Custom Design:
+• Create a design for the TODO list and control elements.
+• Use styling with CSS or any tool of your choice.
+• State Management via Redux or Local Storage:
+• Decide whether to use global state management through Redux or
+local state through Local Storage.
+• Implement the saving of task state according to the chosen approach.
+• Additional Options (Optional):
+• Implement responsive design for proper display on different devices.
+Project Documentation:
+• Installation and Launch:
+• Provide instructions for installing dependencies and launching the
+project.
+• Repository Link:
+• Provide a link to the git repository containing the complete project
+code.
+Notes:
+• Code should be well-structured and accompanied by comments.
+• Documentation can be presented as a README.md file in the root of the
+repository.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Tech stack:
+- React 19
+- Vite
+- Rtk Query
+- Tailwind
+- FSD
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Deploy: 
